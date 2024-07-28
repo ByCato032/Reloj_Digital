@@ -27,7 +27,7 @@ const mostrarReloj = () => {
 
   document.getElementById(
     "fecha"
-  ).innerHTML = `${numDia} ${dia} de ${mes} del ${anio}`;
+  ).innerHTML = `${dia} ${numDia} de ${mes} del ${anio}`;
 };
 
 const formatoHora = (hora) => {
