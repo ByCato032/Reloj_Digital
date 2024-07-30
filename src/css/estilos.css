@@ -42,3 +42,23 @@ html {
         box-shadow: 0 0 20px rgba(141, 160, 165, 0.584);
     }
 }
+
+@media (max-width: 768px) {
+    html {
+        background-position: left center;
+    }
+
+    #reloj {
+        font-size: 40px;
+    }
+
+    .reloj-contenedor {
+        padding: 15px;
+        max-width: 90%;
+        margin-top: 10%;
+    }
+
+    #fecha {
+        font-size: 16px;
+    }
+}
